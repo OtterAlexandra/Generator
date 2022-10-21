@@ -9,5 +9,5 @@ export function useNumber(first, last, change) {
 }
 
 function randomDigit(a, b) {
-  return Math.floor(Math.random() * (b - a) + a);
+  return Math.floor(Math.random() * (b - a) + a * 1);
 }
